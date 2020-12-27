@@ -44,6 +44,8 @@ export default {
 			default: false
 		}
 	},
+	
+	emits: ['blur', 'destroy', 'focus', 'input', 'ready', 'update:modelValue'],
 
 	data() {
 		return {
